@@ -47,6 +47,7 @@ The given dataset contains details about organic chemical compounds including th
 |!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot.png)|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(3).png)|
 
 >* The above images are snapshot of 3-d plot plotted with the help of plotly it's an interactive plot so STRONGLY RECOMMEND to download the notebook and try visualizing the plot.
+>* This 3-D PLOT SHOW THE TRAIN AND VALIDATION AUC FOR EACH OF 20 HYPERPARAMETER PAIRS BUT NOT POSSIBLE TO RENDER HERE HENCE VISUALIZE IT IN NOTEBOOK. 
 >* Took 13 minute for trainnig
 ##### Best Hyper-pparam found
 >1. no_of_estimator : 350
@@ -67,9 +68,9 @@ The given dataset contains details about organic chemical compounds including th
 >* Converted the into class labels using previously calculated thresold
 >* Result
 
-|Confusion Matrix| Test AUC|
-|----------------|---------|
-|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/conf_mat.PNG)|0.99934289154|
+|Confusion Matrix| Test AUC|Test Precision|Test Recall|Test F1 Score|
+|----------------|---------|--------------|-----------|-------------|
+|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/conf_mat.PNG)|0.999342|0.939252|0.990147|0.964028|
 >* Took approx 1.5 minute to train
 >* Calss accuracies are 98.83% & 99.01% for class 0 & 1 respectively.
 
@@ -78,6 +79,7 @@ The given dataset contains details about organic chemical compounds including th
 >* The data seems genuine without of ouliers & preety strainght Forward
 >* I don't think now there is need of trying further models or DL techniques
 >* Training Time could differ due to system configuration
+
 
 ### Bonus
 >* Set n_jobs or n_thread param of xgboost for maximizing the utiliztion of resources for training.
