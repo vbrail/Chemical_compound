@@ -41,10 +41,50 @@ The given dataset contains details about organic chemical compounds including th
 >* values for max_depth  : [1,2,3,4,5]
 >* Images for tunning
 
-|COL1|COL2|
+|||
 |----|----|
 |!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(1).png)|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(2).png)|
-|![alt text](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(3).png)|![alt text](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot.png)|
+|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot.png)|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(3).png)|
+
+>* The above images are snapshot of 3-d plot plotted with the help of plotly it's an interactive plot so STRONGLY RECOMMEND to download the notebook and try visualizing the plot.
+>* Took 13 minute for trainnig
+##### Best Hyper-pparam found
+>1. no_of_estimator : 350
+>2. Max_depth       : 4
+
+##### Training with Best hyper parameter
+>* Train auc is 1 So it might be the case of over fitting (& it's also very easy to have so with DTS)
+>* But the validation auc is also 0.999 so values are very close and definately it's not the case of Overfitting
+
+
+||
+|--|
+|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/auc_curve.PNG)|
+
+>* Calculated the thresold value which will yeild the max AUC
+##### Testing
+>* For the test set got the probability values
+>* Converted the into class labels using previously calculated thresold
+>* Result
+
+|Confusion Matrix| Test AUC|
+|----------------|---------|
+|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/conf_mat.PNG)|0.99934289154|
+>* Took approx 1.5 minute to train
+>* Calss accuracies are 98.83% & 99.01% for class 0 & 1 respectively.
+
+#### Conclusion
+>* We achieved very high accuracy on test data 99%
+>* The data seems genuine without of ouliers & preety strainght Forward
+>* I don't think now there is need of trying further models or DL techniques
+>* Training Time could differ due to system configuration
+
+### Bonus
+>* Set n_jobs or n_thread param of xgboost for maximizing the utiliztion of resources for training.
+
+-----
+### ThaKyou for visiting ...
+Always listen to your inner voice, it will never let you fall.
 
 
 
