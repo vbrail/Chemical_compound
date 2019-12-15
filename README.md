@@ -47,7 +47,7 @@ The given dataset contains details about organic chemical compounds including th
 |!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot.png)|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(3).png)|
 
 >* The above images are snapshot of 3-d plot plotted with the help of plotly it's an interactive plot so STRONGLY RECOMMEND to download the notebook and try visualizing the plot.
->* This 3-D PLOT SHOW THE TRAIN AND VALIDATION AUC FOR EACH OF 20 HYPERPARAMETER PAIRS BUT NOT POSSIBLE TO RENDER HERE HENCE VISUALIZE IT IN NOTEBOOK. 
+>* This 3-D PLOT SHOWs THE TRAIN AND VALIDATION AUC FOR EACH OF 20 HYPERPARAMETER PAIRS BUT NOT POSSIBLE TO RENDER HERE HENCE VISUALIZE IT IN NOTEBOOK. 
 >* Took 13 minute for trainnig
 ##### Best Hyper-pparam found
 >1. no_of_estimator : 350
