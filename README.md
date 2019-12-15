@@ -85,7 +85,7 @@ The given dataset contains details about organic chemical compounds including th
 >* Set n_jobs or n_thread param of xgboost for maximizing the utiliztion of resources for training.
 
 -----
-### ThaKyou for visiting ...
+### Thankyou for visiting ...
 Always listen to your inner voice, it will never let you fall.
 
 
