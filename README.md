@@ -41,9 +41,8 @@ The given dataset contains details about organic chemical compounds including th
 >* values for max_depth  : [1,2,3,4,5]
 >* Images for tunning
 |COL1|COL2|
-|-------------|-------------|
+|----|----|
 |!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(1).png)|!['Reload'](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(2).png)|
-|-------------|-------------|
 |![alt text](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot%20(3).png)|![alt text](https://github.com/vbrail/Chemical_compound/blob/master/images/newplot.png)|
 
 
